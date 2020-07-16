@@ -1,0 +1,11 @@
+
+<Object>
+<ReorgCls>c</ReorgCls>
+<Mod>1</Mod>
+<OldMod>2</OldMod>
+<Table>
+<TableId>5</TableId>
+<TableName>Venta</TableName>
+<Description>Venta</Description></Table>
+<ReorgAction>#</ReorgAction>
+<ObjNavig>Chelo\MDL002\GEN15\VentaConversion.xml</ObjNavig></Object>

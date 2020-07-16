@@ -1,0 +1,12 @@
+CREATE TABLE [GXA0005] ([idVenta] smallint NOT NULL , [fechaVenta] datetime NOT NULL , [porcentajeIVA] decimal( 10) NOT NULL , [tipoFacturaVenta] smallint NOT NULL , [idCliente] smallint NOT NULL )
+Run conversion program for table Venta
+DROP TABLE [Venta]
+sp_rename '[GXA0005]', 'Venta'
+ALTER TABLE [Venta] ADD PRIMARY KEY([idVenta])
+CREATE NONCLUSTERED INDEX [IVENTA1] ON [Venta] ([idCliente] )
+
+ALTER TABLE [VentaidDetalle] ADD CONSTRAINT [IVENTAIDDETALLE2] FOREIGN KEY ([idVenta]) REFERENCES [Venta] ([idVenta])
+ALTER TABLE [VentaidDetalle] ADD CONSTRAINT [IVENTAIDDETALLE1] FOREIGN KEY ([idProducto]) REFERENCES [Producto] ([idProducto])
+
+ALTER TABLE [Venta] ADD CONSTRAINT [IVENTA1] FOREIGN KEY ([idCliente]) REFERENCES [Cliente] ([idCliente])
+

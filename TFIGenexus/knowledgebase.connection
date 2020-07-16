@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_TFIGenexus</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>DESKTOP-F162S1V\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>G:\Repositorios\TFIGenexus\TFIGenexus</Directory>
+	<DataFile>GX_KB_TFIGenexus.mdf</DataFile>
+	<LogFile>GX_KB_TFIGenexus_log.ldf</LogFile>
+	<HostName>DESKTOP-F162S1V</HostName>
+</ConnectionInformation>

@@ -1,0 +1,15 @@
+
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>5</ObjId>
+<ObjName>Venta</ObjName>
+<ObjStatus>genreq</ObjStatus>
+<ObjNavig>GXSPC002\GEN15\NVG\Venta.xml</ObjNavig></Object>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>12</ObjId>
+<ObjName>Gx0050</ObjName>
+<ObjStatus>genreq</ObjStatus>
+<ObjNavig>GXSPC002\GEN15\NVG\Gx0050.xml</ObjNavig></Object>
